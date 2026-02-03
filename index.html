@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Training Repository Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: #333;
+        }
+
+        header {
+            padding: 40px;
+            color: white;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            font-weight: 600;
+        }
+
+        header p {
+            opacity: 0.9;
+        }
+
+        .container {
+            padding: 40px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 14px;
+            padding: 25px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 18px 35px rgba(0,0,0,0.25);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #203a43;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 18px;
+            background: linear-gradient(135deg, #1d976c, #93f9b9);
+            color: #0f2027;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 30px;
+            transition: opacity 0.3s;
+        }
+
+        .card a:hover {
+            opacity: 0.85;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: rgba(255,255,255,0.7);
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Training Repository Dashboard</h1>
+    <p>Centralized access to all training-related repositories</p>
+    <p><strong>Candidate:</strong> Ayush Raj</p>
+</header>
+
+<div class="container">
+    <div class="grid">
+
+        <div class="card">
+            <h3>C# .NET Enterprise Training</h3>
+            <p>All Enterprise-level .NET concepts & exercises</p>
+            <a href="https://github.com/ayushraj1223850/Csharp_dotnet_enterprise_Training" target="_blank">
+                View Repository
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>SQL Repository</h3>
+            <p>Database fundamentals, queries, tables, joins & more</p>
+            <a href="https://github.com/ayushraj1223850/SQL" target="_blank">
+                View Repository
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>TopBrains</h3>
+            <p>Project repository for TopBrains training</p>
+            <a href="https://github.com/ayushraj1223850/TopBrains" target="_blank">
+                View Repository
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>.NET Week 3 Evaluation</h3>
+            <p>Week 3 assessment and projects</p>
+            <a href="https://github.com/ayushraj1223850/dotnet_week3_evaluation" target="_blank">
+                View Repository
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>.NET Week 2 Evaluation</h3>
+            <p>Week 2 assessment and tasks</p>
+            <a href="https://github.com/ayushraj1223850/dotnet_week2_evaluation" target="_blank">
+                View Repository
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>.NET Week 1 Evaluation</h3>
+            <p>Week 1 assessment and basics</p>
+            <a href="https://github.com/ayushraj1223850/dotnet_week1_evaluation" target="_blank">
+                View Repository
+            </a>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    © 2026 · Training Repository Index · All rights reserved
+</footer>
+
+</body>
+</html>
